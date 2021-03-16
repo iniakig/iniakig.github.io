@@ -1,0 +1,99 @@
+header {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 19px;
+    
+    img {
+        
+        width: 24px;
+        height: 24px;
+
+    }
+
+    nav{
+        
+        .menu{
+            
+            /* ESTILOS PARA CUANDO EL MENU SE ENCUENTRA OCULTO*/
+
+            ul{
+                width: 100%;
+                position: absolute;
+                overflow: hidden;
+                top:45px;
+                right: 0;
+                height: 0;
+                list-style: none;
+                transition: height 0.5s ease;
+
+                /* ESTILOS QUE SE APLICARAN CON EL MENU DESPLEGADO*/
+
+                li{
+                    position: relative;
+                    background:#0000EC;
+                    padding-bottom: 24px;
+                    padding-left: 16px;
+                    &:first-child {
+                        padding-top: 16px;
+                    }
+
+                    a {
+                        display: block;
+                        font-family: 'IBM Plex Mono', monospace;
+                        font-size: 6rem;
+                        color: #FFFFFF;
+                        letter-spacing: 0;
+                        line-height: 28px;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+
+            span {
+                display: block;
+                width: 18px;
+                height: 2px;
+                margin-bottom: 3px;
+                background: #000;
+                z-index: 100;
+                transition: transform 0.5s ease;
+                &:nth-last-child(2) {
+                transform-origin: 0% 100%;
+                }
+            }
+        
+            input{
+                width: 20px;
+                height: 20px;
+                opacity: 0;
+                z-index: 200;
+                position: absolute;
+
+                &:checked ~ ul {
+                    height: 240px;
+                }
+
+                &:checked ~ span {
+                    opacity: 1;
+                    transform: rotate(45deg) translate(3px, 4.5px);
+                }
+
+                &:checked ~ span:nth-last-child(3) {
+                    opacity: 0;
+                }
+
+                &:checked ~ span:nth-last-child(2) {
+                    transform: rotate(-45deg) translate(0px, 2px);
+                }
+
+
+            }
+        }
+    }    
+
+}
