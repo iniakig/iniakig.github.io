@@ -20,12 +20,17 @@ header {
         width: 24px;
         height: 24px;
 
+        @media screen and (min-width: $desktop) {
+            width: 36px;
+            height: 36px;
+            margin-left: 100px;
+        }
     }
 
     nav{
         
         .menu{
-            
+
             /* ESTILOS PARA CUANDO EL MENU SE ENCUENTRA OCULTO*/
 
             ul{
@@ -39,10 +44,11 @@ header {
                 transition: height 0.5s ease;
 
                 @media screen and (min-width: $desktop) {
-                   display: flex;
-                   position: relative;
-                   top: 0px;
-                   overflow: visible;
+                    display: flex;
+                    align-items: center; 
+                    overflow: visible;
+                    position: unset;
+                    padding-right: 100px;
                 }
 
                 /* ESTILOS QUE SE APLICARAN CON EL MENU DESPLEGADO*/
@@ -76,7 +82,8 @@ header {
                     }
 
                     @media screen and (min-width: $desktop) {
-                        padding: 0px;
+                        padding-bottom: 0px;
+                        padding-left: 48px;
                         background-color: $bg-main;
                     }
                 }
@@ -129,6 +136,7 @@ header {
                     transform: rotate(-45deg) translate(0px, 2px);
                 }
             }
+
         }
     }    
 
