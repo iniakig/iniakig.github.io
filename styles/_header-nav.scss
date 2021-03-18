@@ -78,6 +78,18 @@ header {
 
                         @media screen and (min-width: $desktop) {
                             color: $font-color;
+                            
+                            &:hover {
+                                
+                                color: #00F3BB;
+                                text-decoration:line-through;
+                            }
+
+                            &:active {
+
+                                color: rgba(6,10,36,0.56);
+                                text-decoration:line-through;
+                            }
                         }
                     }
 

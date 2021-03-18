@@ -109,6 +109,14 @@ header nav .menu ul li a {
   header nav .menu ul li a {
     color: #060A24;
   }
+  header nav .menu ul li a:hover {
+    color: #00F3BB;
+    text-decoration: line-through;
+  }
+  header nav .menu ul li a:active {
+    color: rgba(6, 10, 36, 0.56);
+    text-decoration: line-through;
+  }
 }
 
 @media screen and (min-width: 992px) {
