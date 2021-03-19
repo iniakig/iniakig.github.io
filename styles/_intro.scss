@@ -1,0 +1,72 @@
+@import "variables";
+
+.section-intro {
+
+    padding: 1.8125rem 0 0 1rem;
+
+    @media screen and (min-width: $desktop ) {
+
+        font-size: 4rem;
+        padding: 7.5rem 0 0 12.5rem;
+    }
+
+    h1 {
+        font-family: $font-sans;
+        font-size: 2.25rem;
+        color: $font-color;
+        letter-spacing: 0;
+        line-height: 42px;
+        font-weight: 400;
+        text-align: left;
+
+        @media screen and (min-width: $desktop ) {
+
+            font-size: 4rem;
+            display: inline;
+            
+        }
+    }
+
+    .underline {
+        text-decoration: line-through;
+    }
+
+    .dot {
+
+        @media screen and (min-width: $desktop ) {
+
+            color: #0000EC;
+            display: inline;
+            
+        }
+    }
+
+    p {
+        padding-top: 1rem;
+        padding-bottom: 2.25rem;
+        font-family: $font-mono;
+        font-size: 0.875rem;
+        color: $font-color;
+        text-align: left;
+        letter-spacing: 0;
+        line-height: 22px;
+
+        @media screen and (min-width: $desktop ) {
+
+            width: 628px;
+            font-size: 1rem;
+            text-align: left;
+            line-height: 24px;
+            
+        }
+    }
+
+    button {
+
+        width: 288px;
+        height: 48px;
+        line-height: 22px;
+        @extend %button;
+    }
+    
+}

@@ -10,4 +10,18 @@ $desktop: 992px;
 /* COLORS */
 
 $bg-main: #FFFFFF;
+$bg-button:#00F3BB;
 $font-color: #060A24;
+
+/* Estilos generales de boton*/
+
+%button {
+    
+    background-color: $bg-button;
+    font-family: $font-mono;
+    font-weight: 500;
+    font-size: 16px;
+    color: $font-color;
+    letter-spacing: 0;
+    text-align: center;
+}

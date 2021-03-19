@@ -9,6 +9,17 @@
 /* FONTS */
 /* DEVICES */
 /* COLORS */
+/* Estilos generales de boton*/
+.section-intro button {
+  background-color: #00F3BB;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-size: 16px;
+  color: #060A24;
+  letter-spacing: 0;
+  text-align: center;
+}
+
 header {
   width: 100%;
   height: 44px;
@@ -48,6 +59,8 @@ header img {
 
 header nav .menu {
   /* ESTILOS PARA CUANDO EL MENU SE ENCUENTRA OCULTO*/
+  /* LINEAS MENU HAMBURGUESA*/
+  /* FIN LINEAS MENU HAMBURGESA*/
 }
 
 header nav .menu ul {
@@ -157,6 +170,8 @@ header nav .menu input {
   opacity: 0;
   z-index: 200;
   position: absolute;
+  /* ANIMACION CRUZ*/
+  /* FIN ANIMACION CRUZ*/
 }
 
 @media screen and (min-width: 992px) {
@@ -184,5 +199,84 @@ header nav .menu input:checked ~ span:nth-last-child(3) {
 header nav .menu input:checked ~ span:nth-last-child(2) {
   -webkit-transform: rotate(-45deg) translate(0px, 2px);
           transform: rotate(-45deg) translate(0px, 2px);
+}
+
+/* FONTS */
+/* DEVICES */
+/* COLORS */
+/* Estilos generales de boton*/
+.section-intro button {
+  background-color: #00F3BB;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-size: 16px;
+  color: #060A24;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.section-intro {
+  padding: 1.8125rem 0 0 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  .section-intro {
+    font-size: 4rem;
+    padding: 7.5rem 0 0 12.5rem;
+  }
+}
+
+.section-intro h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 2.25rem;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 42px;
+  font-weight: 400;
+  text-align: left;
+}
+
+@media screen and (min-width: 992px) {
+  .section-intro h1 {
+    font-size: 4rem;
+    display: inline;
+  }
+}
+
+.section-intro .underline {
+  text-decoration: line-through;
+}
+
+@media screen and (min-width: 992px) {
+  .section-intro .dot {
+    color: #0000EC;
+    display: inline;
+  }
+}
+
+.section-intro p {
+  padding-top: 1rem;
+  padding-bottom: 2.25rem;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.875rem;
+  color: #060A24;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+@media screen and (min-width: 992px) {
+  .section-intro p {
+    width: 628px;
+    font-size: 1rem;
+    text-align: left;
+    line-height: 24px;
+  }
+}
+
+.section-intro button {
+  width: 288px;
+  height: 48px;
+  line-height: 22px;
 }
 /*# sourceMappingURL=styles.css.map */

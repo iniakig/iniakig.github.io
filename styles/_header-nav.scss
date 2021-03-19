@@ -101,6 +101,7 @@ header {
                 }
             }
 
+            /* LINEAS MENU HAMBURGUESA*/
             span {
                 display: block;
                 width: 18px;
@@ -117,6 +118,7 @@ header {
                     display: none;
                 }
             }
+            /* FIN LINEAS MENU HAMBURGESA*/
         
             input{
                 width: 20px;
@@ -131,6 +133,7 @@ header {
                     visibility: hidden;
                 }
 
+                /* ANIMACION CRUZ*/
                 &:checked ~ ul {
                     height: 240px;
                 }
@@ -147,6 +150,8 @@ header {
                 &:checked ~ span:nth-last-child(2) {
                     transform: rotate(-45deg) translate(0px, 2px);
                 }
+
+                /* FIN ANIMACION CRUZ*/
             }
 
         }
