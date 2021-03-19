@@ -55,8 +55,19 @@
 
             width: 628px;
             font-size: 1rem;
-            text-align: left;
             line-height: 24px;
+            text-align: left;
+            
+        }
+    }
+
+    .txt-extra {
+
+        @media screen and (min-width: $desktop ) {
+
+            &::before {
+                content: " y la tecnología";
+            }
             
         }
     }
@@ -67,6 +78,13 @@
         height: 48px;
         line-height: 22px;
         @extend %button;
+
+        @media screen and (min-width: $desktop ) {
+
+            width: 226px;
+            height: 56px;
+            font-size: 18px;          
+        }
     }
     
 }
