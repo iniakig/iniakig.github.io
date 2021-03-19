@@ -7,6 +7,7 @@
           box-sizing: border-box;
 }
 
+/* STYLES HEADER Y NAV*/
 /* FONTS */
 /* DEVICES */
 /* COLORS */
@@ -208,6 +209,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
           transform: rotate(-45deg) translate(0px, 2px);
 }
 
+/* STYLES SECTION INTRO*/
 /* FONTS */
 /* DEVICES */
 /* COLORS */
@@ -305,5 +307,13 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     height: 56px;
     font-size: 18px;
   }
+}
+
+/* STYLES SECTION EPISODES*/
+.section-episodes {
+  width: 100%;
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  margin-top: 1.5rem;
+  height: 1203.5px;
 }
 /*# sourceMappingURL=styles.css.map */
