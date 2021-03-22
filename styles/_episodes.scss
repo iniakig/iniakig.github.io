@@ -1,6 +1,28 @@
+@import "variables";
+
 .section-episodes {
     width: 100%;
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     margin-top: 1.5rem;
     height: 1203.5px;
+
+    h3 {
+    padding-top: 4rem;
+    padding-left: 1rem;
+    font-family: $font-sans;
+    font-size: 2.25rem;
+    font-weight: 300;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 42px;
+    }
+
+}
+
+.cntr-episodes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+
 }
