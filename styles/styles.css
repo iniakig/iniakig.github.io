@@ -233,17 +233,18 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 
 /* NORMALIZE SKEW */
 .section-intro {
-  padding: 1.8125rem 0 0 1rem;
+  padding-top: 1.8125rem;
 }
 
 @media screen and (min-width: 992px) {
   .section-intro {
     font-size: 4rem;
-    padding: 7.5rem 0 0 12.5rem;
+    padding-top: 7.5rem;
   }
 }
 
 .section-intro h1 {
+  padding-left: 1rem;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 2.25rem;
   color: #060A24;
@@ -255,8 +256,12 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 
 @media screen and (min-width: 992px) {
   .section-intro h1 {
+    padding-left: 0px;
     font-size: 4rem;
     display: inline;
+  }
+  .section-intro h1:first-child {
+    padding-left: 12.5rem;
   }
 }
 
@@ -272,8 +277,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 }
 
 .section-intro p {
-  padding-top: 1rem;
-  padding-bottom: 2.25rem;
+  padding: 1rem 0 2.25rem 1rem;
   font-family: "IBM Plex Mono", monospace;
   font-size: 0.875rem;
   color: #060A24;
@@ -284,6 +288,8 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 
 @media screen and (min-width: 992px) {
   .section-intro p {
+    padding: 0 0 3.5rem 0;
+    margin-left: 12.5rem;
     width: 628px;
     font-size: 1rem;
     line-height: 24px;
@@ -305,6 +311,15 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media screen and (min-width: 992px) {
+  .section-intro .cntr-button {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-left: 12.5rem;
+  }
 }
 
 .section-intro button {

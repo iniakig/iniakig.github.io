@@ -2,15 +2,17 @@
 
 .section-intro {
 
-    padding: 1.8125rem 0 0 1rem;
+    padding-top: 1.8125rem;
 
     @media screen and (min-width: $desktop ) {
 
         font-size: 4rem;
-        padding: 7.5rem 0 0 12.5rem;
+        padding-top: 7.5rem;
     }
 
     h1 {
+
+        padding-left: 1rem;
         font-family: $font-sans;
         font-size: 2.25rem;
         color: $font-color;
@@ -18,12 +20,14 @@
         line-height: 42px;
         font-weight: 400;
         text-align: left;
-
+        
         @media screen and (min-width: $desktop ) {
-
+            padding-left: 0px;
             font-size: 4rem;
             display: inline;
-            
+            &:first-child {
+                padding-left: 12.5rem;
+            }
         }
     }
 
@@ -42,8 +46,7 @@
     }
 
     p {
-        padding-top: 1rem;
-        padding-bottom: 2.25rem;
+        padding: 1rem 0 2.25rem 1rem;
         font-family: $font-mono;
         font-size: 0.875rem;
         color: $font-color;
@@ -52,7 +55,9 @@
         line-height: 22px;
 
         @media screen and (min-width: $desktop ) {
-
+            
+            padding: 0 0 3.5rem 0;
+            margin-left: 12.5rem;
             width: 628px;
             font-size: 1rem;
             line-height: 24px;
@@ -76,6 +81,13 @@
         width: 100%;
         display: flex;
         justify-content: center;
+
+        @media screen and (min-width: $desktop ) {
+
+            justify-content: flex-start;
+            margin-left: 12.5rem;
+            
+        }
     }
 
     button {
