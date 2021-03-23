@@ -7,11 +7,11 @@
           box-sizing: border-box;
 }
 
-/* STYLES HEADER Y NAV*/
+/* STYLES HEADER & NAV*/
 /* FONTS */
 /* DEVICES */
 /* COLORS */
-/* Estilos generales de boton*/
+/* BUTTON STYLES*/
 .section-intro button {
   background-color: #00F3BB;
   font-family: "IBM Plex Mono", monospace;
@@ -28,6 +28,7 @@
   color: #FFFFFF;
 }
 
+/* NORMALIZE SKEW */
 header {
   width: 100%;
   height: 44px;
@@ -213,7 +214,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 /* FONTS */
 /* DEVICES */
 /* COLORS */
-/* Estilos generales de boton*/
+/* BUTTON STYLES*/
 .section-intro button {
   background-color: #00F3BB;
   font-family: "IBM Plex Mono", monospace;
@@ -230,6 +231,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   color: #FFFFFF;
 }
 
+/* NORMALIZE SKEW */
 .section-intro {
   padding: 1.8125rem 0 0 1rem;
 }
@@ -313,7 +315,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 /* FONTS */
 /* DEVICES */
 /* COLORS */
-/* Estilos generales de boton*/
+/* BUTTON STYLES*/
 .section-intro button {
   background-color: #00F3BB;
   font-family: "IBM Plex Mono", monospace;
@@ -330,11 +332,14 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   color: #FFFFFF;
 }
 
+/* NORMALIZE SKEW */
 .section-episodes {
   width: 100%;
   background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   height: 1203.5px;
+  -webkit-transform: skewY(-5deg);
+          transform: skewY(-5deg);
 }
 
 .section-episodes h3 {
@@ -346,6 +351,8 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   color: #FFFFFF;
   letter-spacing: 0;
   line-height: 42px;
+  -webkit-transform: skewY(5deg);
+          transform: skewY(5deg);
 }
 
 .cntr-episodes {
@@ -360,5 +367,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
+  -webkit-transform: skewY(5deg);
+          transform: skewY(5deg);
 }
 /*# sourceMappingURL=styles.css.map */
