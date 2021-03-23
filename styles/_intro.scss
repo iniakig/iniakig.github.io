@@ -72,8 +72,15 @@
         }
     }
 
+    .cntr-button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
     button {
 
+        padding: 0px;
         width: 288px;
         height: 48px;
         line-height: 22px;
