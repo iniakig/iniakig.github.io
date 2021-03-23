@@ -31,7 +31,7 @@ header {
         
         .menu{
 
-            /* ESTILOS PARA CUANDO EL MENU SE ENCUENTRA OCULTO*/
+            /* HIDE MENU STYLES */
 
             ul{
                 width: 100%;
@@ -51,7 +51,7 @@ header {
                     padding-right: 100px;
                 }
 
-                /* ESTILOS QUE SE APLICARAN CON EL MENU DESPLEGADO*/
+                /* DISPLAYED MENU STYLES */
 
                 li{
                     position: relative;
@@ -101,7 +101,7 @@ header {
                 }
             }
 
-            /* LINEAS MENU HAMBURGUESA*/
+            /* BURGER MENU LINES */
             span {
                 display: block;
                 width: 18px;
@@ -118,7 +118,7 @@ header {
                     display: none;
                 }
             }
-            /* FIN LINEAS MENU HAMBURGESA*/
+            /* END BURGER MENU LINES */
         
             input{
                 width: 20px;
@@ -133,7 +133,7 @@ header {
                     visibility: hidden;
                 }
 
-                /* ANIMACION CRUZ*/
+                /* X ANIMATION STYLES */
                 &:checked ~ ul {
                     height: 240px;
                 }
@@ -151,7 +151,7 @@ header {
                     transform: rotate(-45deg) translate(0px, 2px);
                 }
 
-                /* FIN ANIMACION CRUZ*/
+                /* X ANIMATION STYLES ENDS */
             }
 
         }

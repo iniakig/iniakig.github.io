@@ -67,9 +67,9 @@ header img {
 }
 
 header nav .menu {
-  /* ESTILOS PARA CUANDO EL MENU SE ENCUENTRA OCULTO*/
-  /* LINEAS MENU HAMBURGUESA*/
-  /* FIN LINEAS MENU HAMBURGESA*/
+  /* HIDE MENU STYLES */
+  /* BURGER MENU LINES */
+  /* END BURGER MENU LINES */
 }
 
 header nav .menu ul {
@@ -82,7 +82,7 @@ header nav .menu ul {
   list-style: none;
   -webkit-transition: height 0.5s ease;
   transition: height 0.5s ease;
-  /* ESTILOS QUE SE APLICARAN CON EL MENU DESPLEGADO*/
+  /* DISPLAYED MENU STYLES */
 }
 
 @media screen and (min-width: 992px) {
@@ -179,8 +179,8 @@ header nav .menu input {
   opacity: 0;
   z-index: 200;
   position: absolute;
-  /* ANIMACION CRUZ*/
-  /* FIN ANIMACION CRUZ*/
+  /* X ANIMATION STYLES */
+  /* X ANIMATION STYLES ENDS */
 }
 
 @media screen and (min-width: 992px) {
