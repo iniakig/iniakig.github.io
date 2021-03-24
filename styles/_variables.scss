@@ -13,7 +13,7 @@ $bg-main: #FFFFFF;
 $bg-button:#00F3BB;
 $font-color: #060A24;
 
-/* Estilos generales de boton*/
+/* BUTTON STYLES*/
 
 %button {
     
@@ -30,4 +30,8 @@ $font-color: #060A24;
         color: #FFFFFF;
     }
 }
+
+/* NORMALIZE SKEW */
+
+$normal-skew: skewY(4deg);
 
