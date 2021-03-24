@@ -304,7 +304,6 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 }
 
 .section-intro .cntr-button {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -421,8 +420,13 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
             flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: 536px;
   }
 }
 
@@ -436,6 +440,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 @media screen and (min-width: 992px) {
   .episodes {
     width: 584px;
+    margin-bottom: 4.5rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
