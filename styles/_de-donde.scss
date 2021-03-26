@@ -1,5 +1,33 @@
-.phone-img {
-    width: 360px;
-    height: 519px;
+.section-de-donde{
     position: relative;
+    top: 1132px;
+}
+
+.phone-img {
+    width: 320px;
+    height: 519px;
+}
+
+.de-donde-txt {
+    padding: 1.6875rem 1rem 3.375rem 1rem;
+
+    h3 {
+        font-family: $font-sans;
+        font-size: 2.25rem;
+        font-weight: 400;
+        color: $font-color;
+        letter-spacing: 0;
+        line-height: 42px;
+
+    }
+
+    p {
+        
+        font-family: $font-mono;
+        font-size: 0.875rem;
+        color: $font-color;
+        letter-spacing: 0;
+        line-height: 22px;
+
+    }
 }

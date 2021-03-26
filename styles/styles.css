@@ -365,6 +365,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   height: 1203.5px;
   -webkit-transform: skewY(-4deg);
           transform: skewY(-4deg);
+  position: absolute;
 }
 
 @media screen and (min-width: 992px) {
@@ -445,9 +446,34 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 }
 
 /* STYLES SECTION DE-DONDE-VENIMOS*/
-.phone-img {
-  width: 360px;
-  height: 519px;
+.section-de-donde {
   position: relative;
+  top: 1132px;
+}
+
+.phone-img {
+  width: 320px;
+  height: 519px;
+}
+
+.de-donde-txt {
+  padding: 1.6875rem 1rem 3.375rem 1rem;
+}
+
+.de-donde-txt h3 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+
+.de-donde-txt p {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.875rem;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 22px;
 }
 /*# sourceMappingURL=styles.css.map */
