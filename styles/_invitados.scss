@@ -1,0 +1,27 @@
+@import "variables";
+
+.invitados-title {
+
+    h3 {
+        padding-left: 1rem;
+        font-family: $font-sans;
+        font-size: 2.25rem;
+        color: $font-color;
+        letter-spacing: 0;
+        line-height: 42px;
+        font-weight: 400;
+    }
+}
+
+.cntr-invitados-img {
+
+    margin-top: 0.875rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+}
+
