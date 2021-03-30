@@ -560,6 +560,12 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 }
 
 /* NORMALIZE SKEW */
+@media screen and (min-width: 992px) {
+  .invitados-title {
+    margin-top: 4rem;
+  }
+}
+
 .invitados-title h3 {
   padding-left: 1rem;
   font-family: "IBM Plex Sans", sans-serif;
@@ -568,6 +574,18 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   letter-spacing: 0;
   line-height: 42px;
   font-weight: 400;
+}
+
+@media screen and (min-width: 992px) {
+  .invitados-title h3 {
+    display: inline;
+    font-size: 3rem;
+    line-height: 62px;
+    padding-left: 12.5rem;
+  }
+  .invitados-title h3:last-child {
+    padding-left: 4px;
+  }
 }
 
 .cntr-invitados-img {
@@ -580,6 +598,16 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .cntr-invitados-img {
+    margin-top: 2.25rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+  }
 }
 
 .cntr-invitados-img img {

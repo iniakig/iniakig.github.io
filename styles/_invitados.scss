@@ -1,7 +1,11 @@
 @import "variables";
 
 .invitados-title {
+    @media screen and (min-width: $desktop ) {
 
+        margin-top: 4rem;
+      
+    }
     h3 {
         padding-left: 1rem;
         font-family: $font-sans;
@@ -10,6 +14,17 @@
         letter-spacing: 0;
         line-height: 42px;
         font-weight: 400;
+
+        @media screen and (min-width: $desktop ) {
+
+            display: inline;
+            font-size: 3rem;
+            line-height: 62px;
+            padding-left: 12.5rem;
+            &:last-child {
+                padding-left: 4px;
+            }
+        }
     }
 }
 
@@ -20,8 +35,16 @@
     flex-direction: column;
     width: 100%;
 
+    @media screen and (min-width: $desktop ) {
+        
+        margin-top: 2.25rem;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
     img {
-        width: 100%;
+        width: 100%;    
+        
     }
 }
 
