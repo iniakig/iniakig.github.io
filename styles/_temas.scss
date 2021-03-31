@@ -1,0 +1,80 @@
+@import "variables";
+
+.section-temas {
+
+    margin-top: 3rem;
+
+    @media screen and (min-width: $desktop ) {
+
+        margin-top: 4rem;
+    }
+
+}
+
+.temas-title {
+    h3 {
+        padding-left: 1rem;
+        font-family: $font-sans;
+        font-size: 2.25rem;
+        color: $font-color;
+        letter-spacing: 0;
+        line-height: 42px;
+        font-weight: 400;
+
+        @media screen and (min-width: $desktop ) {
+
+            display: inline;
+            font-size: 3rem;
+            line-height: 62px;
+            padding-left: 12.5rem;
+            &:last-child {
+                padding-left: 4px;
+            }
+        }
+    }
+}
+
+.cntr-temas-img {
+
+    margin-top: 2.31rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    @media screen and (min-width: $desktop ) {
+
+        margin-top: 4.31rem;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.cntr-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3.06rem;
+    max-width: 288px;
+    
+    @media screen and (min-width: $desktop ) {
+
+        max-width: 220px;
+        margin-right: 2.5rem;  
+    }
+
+    img {
+        width: 104px;
+    }
+
+    h5 {
+        font-family: $font-sans;
+        color: $font-color;
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 42px;
+        text-align: center;
+                  
+    }
+}
