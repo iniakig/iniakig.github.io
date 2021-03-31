@@ -12,7 +12,7 @@
 /* DEVICES */
 /* COLORS */
 /* BUTTON STYLES*/
-.section-intro button {
+.section-intro button, .novedades .cntr-button button {
   background-color: #00F3BB;
   font-family: "IBM Plex Mono", monospace;
   font-weight: 500;
@@ -22,7 +22,7 @@
   text-align: center;
 }
 
-.section-intro button:hover {
+.section-intro button:hover, .novedades .cntr-button button:hover {
   background-image: -webkit-gradient(linear, right top, left top, from(#0000FE), to(#00F0B8));
   background-image: linear-gradient(270deg, #0000FE 0%, #00F0B8 100%);
   color: #FFFFFF;
@@ -215,7 +215,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 /* DEVICES */
 /* COLORS */
 /* BUTTON STYLES*/
-.section-intro button {
+.section-intro button, .novedades .cntr-button button {
   background-color: #00F3BB;
   font-family: "IBM Plex Mono", monospace;
   font-weight: 500;
@@ -225,7 +225,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   text-align: center;
 }
 
-.section-intro button:hover {
+.section-intro button:hover, .novedades .cntr-button button:hover {
   background-image: -webkit-gradient(linear, right top, left top, from(#0000FE), to(#00F0B8));
   background-image: linear-gradient(270deg, #0000FE 0%, #00F0B8 100%);
   color: #FFFFFF;
@@ -341,7 +341,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 /* DEVICES */
 /* COLORS */
 /* BUTTON STYLES*/
-.section-intro button {
+.section-intro button, .novedades .cntr-button button {
   background-color: #00F3BB;
   font-family: "IBM Plex Mono", monospace;
   font-weight: 500;
@@ -351,7 +351,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   text-align: center;
 }
 
-.section-intro button:hover {
+.section-intro button:hover, .novedades .cntr-button button:hover {
   background-image: -webkit-gradient(linear, right top, left top, from(#0000FE), to(#00F0B8));
   background-image: linear-gradient(270deg, #0000FE 0%, #00F0B8 100%);
   color: #FFFFFF;
@@ -543,7 +543,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 /* DEVICES */
 /* COLORS */
 /* BUTTON STYLES*/
-.section-intro button {
+.section-intro button, .novedades .cntr-button button {
   background-color: #00F3BB;
   font-family: "IBM Plex Mono", monospace;
   font-weight: 500;
@@ -553,7 +553,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   text-align: center;
 }
 
-.section-intro button:hover {
+.section-intro button:hover, .novedades .cntr-button button:hover {
   background-image: -webkit-gradient(linear, right top, left top, from(#0000FE), to(#00F0B8));
   background-image: linear-gradient(270deg, #0000FE 0%, #00F0B8 100%);
   color: #FFFFFF;
@@ -619,7 +619,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 /* DEVICES */
 /* COLORS */
 /* BUTTON STYLES*/
-.section-intro button {
+.section-intro button, .novedades .cntr-button button {
   background-color: #00F3BB;
   font-family: "IBM Plex Mono", monospace;
   font-weight: 500;
@@ -629,7 +629,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   text-align: center;
 }
 
-.section-intro button:hover {
+.section-intro button:hover, .novedades .cntr-button button:hover {
   background-image: -webkit-gradient(linear, right top, left top, from(#0000FE), to(#00F0B8));
   background-image: linear-gradient(270deg, #0000FE 0%, #00F0B8 100%);
   color: #FFFFFF;
@@ -712,6 +712,10 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   max-width: 288px;
 }
 
+.cntr-icon:last-child {
+  margin-bottom: 0px;
+}
+
 @media screen and (min-width: 992px) {
   .cntr-icon {
     max-width: 220px;
@@ -731,5 +735,93 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   letter-spacing: 0;
   line-height: 42px;
   text-align: center;
+}
+
+/* STYLES SECTION NOVEDADES*/
+/* FONTS */
+/* DEVICES */
+/* COLORS */
+/* BUTTON STYLES*/
+.section-intro button, .novedades .cntr-button button {
+  background-color: #00F3BB;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-size: 16px;
+  color: #060A24;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.section-intro button:hover, .novedades .cntr-button button:hover {
+  background-image: -webkit-gradient(linear, right top, left top, from(#0000FE), to(#00F0B8));
+  background-image: linear-gradient(270deg, #0000FE 0%, #00F0B8 100%);
+  color: #FFFFFF;
+}
+
+/* NORMALIZE SKEW */
+.novedades {
+  width: 100vw;
+  height: 341px;
+  margin-top: 2.62rem;
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+  .novedades {
+    height: 518px;
+    -webkit-clip-path: polygon(0 25%, 100% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(0 25%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+.novedades h3 {
+  width: 288px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 300;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 42px;
+}
+
+@media screen and (min-width: 992px) {
+  .novedades h3 {
+    width: 692px;
+    font-size: 3rem;
+  }
+}
+
+.novedades .cntr-button {
+  margin-top: 2.25rem;
+}
+
+.novedades .cntr-button button {
+  padding: 0px;
+  width: 288px;
+  height: 48px;
+  line-height: 22px;
+}
+
+@media screen and (min-width: 992px) {
+  .novedades .cntr-button button {
+    width: 345px;
+    font-size: 1.125rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
