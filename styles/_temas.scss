@@ -4,6 +4,14 @@
 
     margin-top: 3rem;
 
+    @media screen and (min-width: $desktop ) {
+
+        margin-top: 4rem;
+    }
+
+}
+
+.temas-title {
     h3 {
         padding-left: 1rem;
         font-family: $font-sans;
@@ -12,6 +20,17 @@
         letter-spacing: 0;
         line-height: 42px;
         font-weight: 400;
+
+        @media screen and (min-width: $desktop ) {
+
+            display: inline;
+            font-size: 3rem;
+            line-height: 62px;
+            padding-left: 12.5rem;
+            &:last-child {
+                padding-left: 4px;
+            }
+        }
     }
 }
 
@@ -22,6 +41,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+
+    @media screen and (min-width: $desktop ) {
+
+        margin-top: 4.31rem;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
 .cntr-icon {
@@ -29,7 +55,13 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 3.06rem;
+    max-width: 288px;
     
+    @media screen and (min-width: $desktop ) {
+
+        max-width: 220px;
+        margin-right: 2.5rem;  
+    }
 
     img {
         width: 104px;

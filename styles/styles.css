@@ -640,7 +640,13 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   margin-top: 3rem;
 }
 
-.section-temas h3 {
+@media screen and (min-width: 992px) {
+  .section-temas {
+    margin-top: 4rem;
+  }
+}
+
+.temas-title h3 {
   padding-left: 1rem;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 2.25rem;
@@ -648,6 +654,18 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   letter-spacing: 0;
   line-height: 42px;
   font-weight: 400;
+}
+
+@media screen and (min-width: 992px) {
+  .temas-title h3 {
+    display: inline;
+    font-size: 3rem;
+    line-height: 62px;
+    padding-left: 12.5rem;
+  }
+  .temas-title h3:last-child {
+    padding-left: 4px;
+  }
 }
 
 .cntr-temas-img {
@@ -666,6 +684,19 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
       justify-content: space-around;
 }
 
+@media screen and (min-width: 992px) {
+  .cntr-temas-img {
+    margin-top: 4.31rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .cntr-icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -678,6 +709,14 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 3.06rem;
+  max-width: 288px;
+}
+
+@media screen and (min-width: 992px) {
+  .cntr-icon {
+    max-width: 220px;
+    margin-right: 2.5rem;
+  }
 }
 
 .cntr-icon img {
