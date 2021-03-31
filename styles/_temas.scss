@@ -1,0 +1,48 @@
+@import "variables";
+
+.section-temas {
+
+    margin-top: 3rem;
+
+    h3 {
+        padding-left: 1rem;
+        font-family: $font-sans;
+        font-size: 2.25rem;
+        color: $font-color;
+        letter-spacing: 0;
+        line-height: 42px;
+        font-weight: 400;
+    }
+}
+
+.cntr-temas-img {
+
+    margin-top: 2.31rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cntr-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3.06rem;
+    
+
+    img {
+        width: 104px;
+    }
+
+    h5 {
+        font-family: $font-sans;
+        color: $font-color;
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 42px;
+        text-align: center;
+                  
+    }
+}
