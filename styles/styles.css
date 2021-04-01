@@ -862,6 +862,20 @@ footer {
           align-items: center;
 }
 
+@media screen and (min-width: 992px) {
+  footer {
+    margin: 0 100px 0 100px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 95px;
+  }
+}
+
 footer p {
   font-family: "IBM Plex Mono", monospace;
   font-size: 0.875rem;
@@ -869,15 +883,30 @@ footer p {
   color: #060A24;
 }
 
+@media screen and (min-width: 992px) {
+  footer p {
+    font-size: 1rem;
+    line-height: 28px;
+  }
+}
+
 .cntr-rrss {
   margin-top: 1rem;
   width: 227px;
   max-width: 227px;
+  font-size: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media screen and (min-width: 992px) {
+  .cntr-rrss {
+    margin-top: 0px;
+    font-size: 18px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
