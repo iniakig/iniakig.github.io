@@ -297,8 +297,24 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   }
 }
 
+.section-intro .txt-extra::before {
+  content: "Un ";
+}
+
 @media screen and (min-width: 992px) {
   .section-intro .txt-extra::before {
+    content: "El portal de ";
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section-intro .txt-extra-2::before {
+    content: "s";
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section-intro .txt-extra-3::before {
     content: " y la tecnología";
   }
 }

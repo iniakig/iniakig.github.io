@@ -67,6 +67,33 @@
     }
 
     .txt-extra {
+        
+        &::before {
+            content: "Un ";
+        }
+        
+           @media screen and (min-width: $desktop ) {
+
+            &::before {
+                content: "El portal de ";
+            }
+            
+        }
+    }
+
+    .txt-extra-2 {
+
+           @media screen and (min-width: $desktop ) {
+
+            &::before {
+                content: "s";
+            }
+            
+        }
+
+    }
+    
+    .txt-extra-3 {
 
         @media screen and (min-width: $desktop ) {
 
