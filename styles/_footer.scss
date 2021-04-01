@@ -6,19 +6,41 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media screen and (min-width: $desktop ) {
+        
+        margin: 0 100px 0 100px;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 95px;
+    }
+
     p{
         font-family: $font-mono;
         font-size: 0.875rem;
         line-height: 22px;
         color: $font-color;
+
+        @media screen and (min-width: $desktop ) {
+            
+            font-size: 1rem;
+            line-height: 28px;
+        }
     }
 }
 
 .cntr-rrss {
-    
+
     margin-top: 1rem;
     width: 227px;
     max-width: 227px;
+    font-size: 18px;
     display: flex;
     justify-content: space-between;
+
+    @media screen and (min-width: $desktop ) {
+        
+        margin-top: 0px;
+        font-size: 18px;
+    }
 }
