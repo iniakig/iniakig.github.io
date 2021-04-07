@@ -37,7 +37,19 @@ footer {
     font-size: 18px;
     display: flex;
     justify-content: space-between;
+    a {
+        &:link {
+            text-decoration: none;
+        }
 
+        &:visited {
+            text-decoration: none;
+        }
+
+        &:active {
+            text-decoration: none;
+        }
+    }
     @media screen and (min-width: $desktop ) {
         
         margin-top: 0px;

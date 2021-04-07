@@ -445,9 +445,11 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 }
 
 .episodes {
-  width: 288px;
+  width: 301px;
   height: 232px;
   border-style: none;
+  border: 0px;
+  background-color: transparent;
   margin-bottom: 0.6875rem;
 }
 
@@ -917,6 +919,18 @@ footer p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.cntr-rrss a:link {
+  text-decoration: none;
+}
+
+.cntr-rrss a:visited {
+  text-decoration: none;
+}
+
+.cntr-rrss a:active {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 992px) {
