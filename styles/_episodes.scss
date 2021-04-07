@@ -54,9 +54,11 @@
 }
 
 .episodes {
-        width: 288px;
+        width: 301px;
         height: 232px;
         border-style: none;
+        border: 0px;
+        background-color: transparent;
         margin-bottom: 0.6875rem;
 
         @media screen and (min-width: $desktop ) {
