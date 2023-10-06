@@ -1,0 +1,262 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #c6b497;
+}
+
+/* INICIAN ESTILOS DEL HEADER*/
+header {
+  width: 100vw;
+  background-color: #34626c;
+}
+
+header h1 {
+  padding-top: 1.5vw;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.938);
+}
+
+header h3 {
+  padding-bottom: 2vw;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.938);
+}
+
+/* CIERRAN ESTILOS DEL HEADER*/
+/* INICIAN ESTILOS NAV BAR */
+nav {
+  width: 100vw;
+  background-color: #839b97;
+}
+
+/*ul {
+  width: 100vw;
+  display: inline;
+}*/
+
+ul li {
+  text-align: center;
+  list-style: none;
+  border-bottom: solid 0.15rem rgba(255, 255, 255, 0.938);
+}
+
+ul li a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.938);
+}
+
+/* CIERRAN LOS ESTILOS DEL NAV*/
+/* INICIAN ESTILOS DE TITULOS DE SECCION*/
+.titulo-seccion {
+  width: 40vw;
+  height: 6vw;
+  margin-top: 2vw;
+  margin-left: 30vw;
+  background-color: #34626c;
+  -webkit-transform: skew(-45deg);
+          transform: skew(-45deg);
+}
+
+.titulo-seccion h3 {
+  color: rgba(255, 255, 255, 0.938);
+  -webkit-transform: skew(45deg) translateY(-50%);
+          transform: skew(45deg) translateY(-50%);
+  text-align: center;
+  position: relative;
+  top: 50%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* CIERRAN LOS ESTILOS DE TITULOS DE LA SECCION*/
+/* COMIENZAN ESTILOS DE LA SECCION SOBRE MI*/
+.sobremi {
+  width: 100%;
+  position: relative;
+  margin-top: 2vw;
+}
+
+.contenedor-sobremi-info {
+  margin-left: 2.5vw;
+  width: 45vw;
+  height: 13vw;
+  float: left;
+  background-color: #cfd3ce;
+  text-align: center;
+  border: solid 0.5vw #34626c;
+  border-radius: 10px;
+}
+
+.contenedor-sobremi-info h5 {
+  color: #34626c;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3vw;
+  font-weight: 500;
+}
+
+.contenedor-sobremi-rrss {
+  width: 50vw;
+  float: right;
+  margin-left: 2.5vw;
+  width: 45vw;
+  height: 13vw;
+  float: left;
+  background-color: #cfd3ce;
+  text-align: center;
+  border: solid 0.5vw #34626c;
+  border-radius: 10px;
+}
+
+.rrss-icon {
+  display: inline-block;
+  position: relative;
+  top: 25%;
+}
+
+.rrss-icon img {
+  width: 6.5vw;
+  height: auto;
+}
+
+br {
+  clear: both;
+}
+
+.sobremi-info {
+  width: 98vw;
+  margin-left: 1vw;
+  margin-top: 2vw;
+  padding: 1vw;
+  background-color: #cfd3ce;
+  border: solid 0.5vw #34626c;
+  border-radius: 10px;
+}
+
+.sobremi-info img {
+  width: 30vw;
+  float: left;
+  margin: 1vw;
+  border-radius: 5px;
+}
+
+.sobremi-info p {
+  color: #34626c;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3vw;
+  font-weight: 500;
+}
+
+/* CIERRAN ESTILOS DE LA SECCION SOBRE MI*/
+/* COMIENZAN ESTILOS SECCION SKILSS*/
+.contenedor-skills {
+  width: 30vw;
+  margin-left: 2vw;
+  margin-top: 2vw;
+  display: inline-block;
+}
+
+.contenedor-skills img {
+  margin-left: 7vw;
+  width: 16vw;
+  height: auto;
+}
+
+.contenedor-skills h5 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.938);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.5vw;
+  font-weight: bold;
+}
+
+.contenedor-skills .sass {
+  border-radius: 5px;
+}
+
+/* CIERRAN ESTILOS SECCION SKILSS*/
+/* COMIENZAN ESTILOS SECCION PROYECTOS*/
+.proyectos {
+  margin-top: 2vw;
+}
+
+.contenedor-proyecto {
+  width: 80vw;
+  margin-left: 10vw;
+  margin-top: 2.5vw;
+}
+
+.contenedor-proyecto img {
+  width: 80vw;
+  height: auto;
+}
+
+.contenedor-proyecto h5 {
+  margin-bottom: 1vw;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.938);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+/* CIERRAN ESTILOS SECCION PROYECTOS*/
+/* ABREN ESTILOS FORMULARIO*/
+.container-form {
+  width: 80vw;
+  margin-top: 2vw;
+  margin-left: 10vw;
+  margin-bottom: 5vw;
+  padding: 1vw;
+  background-color: #cfd3ce;
+  border: solid 0.5vw #34626c;
+  border-radius: 10px;
+}
+
+.form-input {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3vw;
+  font-weight: 600;
+}
+
+.form-input input {
+  margin-bottom: 1vw;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3vw;
+  font-weight: 600;
+}
+
+.form-input textarea {
+  margin-left: 10vw;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3vw;
+  font-weight: 600;
+}
+
+button {
+  width: 25vw;
+  height: 5vw;
+  margin-left: 27.5vw;
+  border: solid 2px  #34626c;
+  border-radius: 10px;
+  background-color: transparent;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2vw;
+  font-weight: 600;
+}
+
+/* CIERRAN ESTILOS FORMULARIO*/

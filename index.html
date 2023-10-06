@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap" rel="stylesheet"> 
+    <title>Iñaki Galdós</title>
+</head>
+
+<body>
+    
+    <header class="header">
+        
+        <h1 class="header-titulo">IÑAKI GALDÓS</h1>
+    </header>
+
+    <nav class="nav-barra">
+
+        <ul>
+            <li><a href="#sobremi">SOBRE MÍ</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#contacto">CONTACTAME</a></li>
+        </ul>
+
+    </nav>
+
+    <main>
+
+        
+        <article class="sobremi">
+            
+            <a name="sobremi" id="sobremi"></a>
+
+            <div class="titulo-seccion">
+                <h3>SOBRE MÍ</h3>
+            </div>
+
+            <br>
+
+            <section class="sobremi-info">
+
+                <div>
+                    <img class="sobremi-img" src="imgs/img-sobremi.JPG" alt="Iñaki Galdós">
+                </div>
+
+                <div class="sobremi-desc">
+                    <p>Mi nombre es Iñaki Galdós, estudiante de la tecnicatura en Programación de la UTN. Siempre me interesó muchisimo el mundo de la tecnología, trabajé varios años en el sector IT de una organización dando soporte en hardware y software a los empleados.</p>
+                    <p>El año pasado me recibí como periodista y mi intención es en algun momento poder converger estos dos mundos, que sin dudas estan cada vez más cerca.</p>
+                </div>
+                
+            </section>
+            
+        </article>
+               
+        <article>
+
+            <a name="skills" id="skills"></a>
+            <div class="titulo-seccion">
+                <h3>SKILLS</h3>
+            </div>
+
+            <section class="skills">
+                
+                <div class="contenedor-skills">
+                    <img src="imgs/c++.png" alt="C++">
+                    <h5>C++</h5>
+                </div>
+                
+                <div class="contenedor-skills">
+                    <img src="imgs/c-sharp.png" alt="C#">
+                    <h5>C#</h5>
+                </div>
+
+                <div class="contenedor-skills">
+                    <img src="imgs/sql.png" alt="SQL">
+                    <h5>SQL</h5>
+                </div>
+
+            </section>
+
+        </article>
+
+        <article>
+
+            <a name="contacto" id="contacto"></a>
+
+            <div class="titulo-seccion">
+                <h3>CONTACTAME</h3>
+            </div>
+
+            <section class="container-form">
+               
+                <div class="form-contacto">
+                    
+                    <form action="post">
+
+                        <div class="form-input">
+                            <label for="name">NOMBRE</label>
+                            <input type="text" name="name" id="name" placeholder="MATIAS" required>    
+                        </div>
+
+                        <div class="form-input">
+                            <label for="lastname">APELLIDO</label>
+                            <input type="text" name="lastname" id="lastname" placeholder="GOMEZ" required>
+                        </div>
+
+                        <div class="form-input">
+                            <label for="email">MAIL</label>
+                            <input type="email" name="email" id="email" placeholder="MGOMEZ@GMAIL.COM" required>
+                        </div>
+
+                        <div class="form-input">
+                            <label for="phone">TELEFONO</label>
+                            <input type="tel" name="phone" id="phone" placeholder="5491167411641" required>
+                        </div>
+
+                        <div class="form-input">
+                            <textarea name="message" id="message" cols="30" rows="5" maxlength="300" placeholder="DEJE SU MENSAJE"></textarea>
+                        </div>
+                     
+
+                        <div class="form-button">
+                            <button type="submit">ENVIAR</button>
+                        </div>
+
+                    </form>
+
+                </div>
+                
+            
+            </section>
+
+        </article>
+       
+    </main>
+</body>
+</html>
